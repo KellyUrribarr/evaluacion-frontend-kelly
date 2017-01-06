@@ -23,3 +23,11 @@ function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
   var d = R * c;
   return d;
 }
+
+//-------
+
+$(document).ready(function(){
+    $("#boton").on("click", function(){
+        $("form").hide();
+    });
+});
