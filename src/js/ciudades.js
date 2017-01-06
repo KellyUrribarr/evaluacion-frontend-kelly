@@ -1,64 +1,67 @@
 function get_regiones(){
 	return [
-		{
-			name: "arica",
-			distance: 0
-		},
-		{
-			name: "iquique",
-			distance: 0
-		},
-		{
-			name: "antofagasta",
-			distance: 0
-		},
-		{
-			name: "copiapo",
-			distance: 0
-		},
-		{
-			name: "la_serena",
-			distance: 0
-		},
-		{
-			name: "valparaiso",
-			distance: 0
-		},
-		{
-			name: "rancagua",
-			distance: 0
-		},
-		{
-			name: "talca",
-			distance: 0
-		},
-		{
-			name: "concepcion",
-			distance: 0
-		},
-		{
-			name: "temuco",
-			distance: 0
-		},
-		{
-			name: "valdivia",
-			distance: 0
-		},
-		{
-			name: "puerto_montt",
-			distance: 0
-		},
-		{
-			name: "coyhaique",
-			distance: 0
-		},
-		{
-			name: "punta_arenas",
-			distance: 0
-		},
-		{
-			name: "santiago",
-			distance: 0
-		}
+	{
+		name: "arica",
+		distance: 2059
+
+	},
+	{
+		name: "iquique",
+		distance: 1789
+	},
+	{
+		name: "antofagasta",
+		distance: 1368
+	},
+	{
+		name: "copiapo",
+		distance: 1567
+	},
+	{
+		name: "la_serena",
+		distance: 470
+	},
+	{
+		name: "valparaiso",
+		lat :-33.45 , 
+		lng: -70.6667
+	},
+	{
+		name: "rancagua",
+		distance: 84
+	},
+	{
+		name: "talca",
+		distance: 257
+	},
+	{
+		name: "concepcion",
+		distance: 500
+	},
+	{
+		name: "temuco",
+		distance: 0
+	},
+	{
+		name: "valdivia",
+		distance: 848
+	},
+	{
+		name: "puerto_montt",
+		distance: 1032
+	},
+	{
+		name: "coyhaique",
+		distance: 1888
+	},
+	{
+		name: "punta_arenas",
+		distance: 3004
+	},
+	{
+		name: "santiago",
+		lat : -33.05, 
+		lng: -71.6167
+	}
 	];
 }

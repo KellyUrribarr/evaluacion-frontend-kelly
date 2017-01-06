@@ -1,0 +1,9 @@
+var json={
+   "cuidades":[
+      {"cuidad": "arica", "valor": 3600},
+      {"cuidad": "serena", "valor": 6600}
+
+   ]
+}
+
+$(".prueba").text(json.cuidades[0].cuidad);
