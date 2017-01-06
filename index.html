@@ -60,10 +60,7 @@
 						<span class="subt">Motocicleta <br> maximo 2 personas</span>
 					</p>
 					<div>
-						<h6>Cantidad de pasajeros</h6>
-						<div class="input-field col s2">
-							<input id="email" type="" class="validate">
-						</div>
+						
 					</div>
 					<a id="compartir" class="waves-effect waves-light btn">Compartir carro</a>
 					
@@ -129,7 +126,7 @@ success: function( data ) {
 	ltxKm = 1;
 	var kmBz = data.rows[0].elements[0].distance.value * 673;
 	var totalPagar  = kmBz / ltxKm;
-	alert( "debe pagar" + totalPagar  
+	alert("debe pagar" + totalPagar  
 		);
 	console.log(data);
 }	
