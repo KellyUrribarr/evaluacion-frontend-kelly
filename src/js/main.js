@@ -27,7 +27,9 @@ function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
 //-------
 
 $(document).ready(function(){
-    $("#boton").on("click", function(){
-        $("form").hide();
+    $("form").hide();
+  
+    $("#boton").click(function(){
+        $("form").show();
     });
 });
