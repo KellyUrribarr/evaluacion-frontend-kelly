@@ -59,9 +59,7 @@
 						<img class="autos" src="dist/images/camion.jpg">
 						<span class="subt">Motocicleta <br> maximo 2 personas</span>
 					</p>
-					<div>
-						
-					</div>
+					<div></div>
 					<a id="compartir" class="waves-effect waves-light btn">Compartir carro</a>
 					
 				</form>
@@ -126,9 +124,14 @@ success: function( data ) {
 	ltxKm = 1;
 	var kmBz = data.rows[0].elements[0].distance.value * 673;
 	var totalPagar  = kmBz / ltxKm;
-	alert("debe pagar" + totalPagar  
+
+	$("#compartir").click(function(data){
+        alert( "debe pagar" + totalPagar  
 		);
-	console.log(data);
+		console.log(data);
+    });
+
+	
 }	
 });
 
